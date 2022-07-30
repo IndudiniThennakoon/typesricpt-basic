@@ -8,10 +8,9 @@
 
 // super type 
 
-let isCheck: any = true;
+let isCheck: any = true // boolean 
 
-isCheck = 'True';
-isCheck = 0
+isCheck = 'True' // assign string 
+isCheck = 8 // assign string
 isCheck ={id : 1, name: 'Indu'};
-
 console.log(isCheck);
