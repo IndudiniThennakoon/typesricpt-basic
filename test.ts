@@ -139,10 +139,23 @@
 
 //  for loop
 
-let count = 10;
-for(let i = 0 ; i < count ; i++){
-    console.log(i);
+// let count = 10;
+// for(let i = 0 ; i < count ; i++){
+//     console.log(i);
+// }
+
+//  while loop
+
+let num = 5;
+
+let factorial : number = 1;
+
+while(num >=1){
+    factorial = factorial * num;
+    num --;
 }
+
+
 
 
     
