@@ -82,6 +82,8 @@ employee = {
     name: 'Indu'
 }
 
+const.log(employee);
+
 
 
 
