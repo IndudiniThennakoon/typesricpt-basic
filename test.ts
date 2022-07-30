@@ -52,18 +52,18 @@
 
 //  function
 
-function test() : void {
-    console.log('Hi')
-}
-test();
+// function test() : void {
+//     console.log('Hi')
+// }
+// test();
 
-let value = undefined;
-value = 5;
-console.log(value);
+// let value = undefined;
+// value = 5;
+// console.log(value);
 
-let result = null;
-result ={ id : 1, name : 'All'};
-console.log(result);
+// let result = null;
+// result ={ id : 1, name : 'All'};
+// console.log(result);
 
 // never
 // function error (message: string): never{
@@ -86,32 +86,38 @@ console.log(result);
 
 // arithmetic operators
 
-let a = 2;
-let b = 3;
+// let a = 2;
+// let b = 3;
 
-let value = a + b;
-console.log(value);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
-console.log(a ++);
-console.log(a--);
+// let value = a + b;
+// console.log(value);
+// console.log(a - b);
+// console.log(a * b);
+// console.log(a / b);
+// console.log(a ++);
+// console.log(a--);
 
 //  relational operators
 
-console.log(a < b);
-console.log(a > b);
-console.log(a <= b);
-console.log(a >= b);
+// console.log(a < b);
+// console.log(a > b);
+// console.log(a <= b);
+// console.log(a >= b);
 
 //  logical operators
-let c = 3;
-let d = 10;
-console.log(a < b && c < d);
-console.log(!(a<b) );
-console.log(a < b && c < d);
+// let c = 3;
+// let d = 10;
+// console.log(a < b && c < d);
+// console.log(!(a<b) );
+// console.log(a < b && c < d);
 
-
+//  if
+let value = 2;
+if (value == 4)
+{
+    console.log(value);
+}else 
+console.log("Falsy")
 
 
 
