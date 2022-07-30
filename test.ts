@@ -44,11 +44,33 @@
 
 // unknown variable
 
-let notSure: unknown = 4;
-notSure = 'maybe a string instead';
+// let notSure: unknown = 4;
+// notSure = 'maybe a string instead';
 
-notSure = false;
-console.log(notSure);
-    
+// notSure = false;
+// console.log(notSure);
+
+//  function
+
+function test() : void {
+    console.log('Hi')
 }
+test();
+
+let value = undefined;
+value = 5;
+console.log(value);
+
+let result = null;
+result ={ id : 1, name : 'All'};
+console.log(result);
+
+
+
+
+
+
+
+    
+
 
