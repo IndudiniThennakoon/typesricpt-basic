@@ -116,8 +116,10 @@ let value = 2;
 if (value == 4)
 {
     console.log(value);
-}else 
-console.log("Falsy")
+}else if (value == 5){
+    console.log("value == 5");
+}
+console.log("Falsy");
 
 
 
