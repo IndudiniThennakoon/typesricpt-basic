@@ -66,12 +66,20 @@ result ={ id : 1, name : 'All'};
 console.log(result);
 
 // never
-function error (message: string): never{
-    throw new Error (message);
-}
+// function error (message: string): never{
+//     throw new Error (message);
+// }
 
-function fail(){
-    return error("something failed")
+// function fail(){
+//     return error("something failed")
+// }
+
+// object
+
+let employee: obeject = { id : 0, name : ''};
+employee = {
+    id: 1,
+    name: 'Indu'
 }
 
 
