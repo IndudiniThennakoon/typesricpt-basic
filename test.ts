@@ -155,6 +155,8 @@ while(num >=1){
     num --;
 }
 
+console.log(factorial);
+
 
 
 
