@@ -104,7 +104,12 @@ console.log(a > b);
 console.log(a <= b);
 console.log(a >= b);
 
-
+//  logical operators
+let c = 3;
+let d = 10;
+console.log(a < b && c < d);
+console.log(!(a<b) );
+console.log(a < b && c < d);
 
 
 
