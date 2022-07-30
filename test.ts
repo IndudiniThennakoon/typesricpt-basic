@@ -82,7 +82,7 @@ employee = {
     name: 'Indu'
 }
 
-const.log(employee);
+console.log(employee);
 
 
 
