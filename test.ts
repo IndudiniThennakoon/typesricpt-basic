@@ -25,9 +25,19 @@
 // console.log(list);
 
 // tuple
-let x: [number,string];
-x = [112, 'Hello'];
+// let x: [number,string];
+// x = [112, 'Hello'];
 
-console.log(x);
+// console.log(x);
 
+//  enum
+enum ActionTypes{
+    GET_PRODUCTS = '[GET PRODUCTS] LOADED',
+    CREATE_PRODUCTS = '[CREATE PRODUCTS] CREATE'
+}
 
+const action = {
+    payload = 1,
+    type: ActionTypes.GET_PRODUCTS
+}
+console.log(action);
