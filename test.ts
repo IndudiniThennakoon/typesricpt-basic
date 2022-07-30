@@ -76,13 +76,28 @@ console.log(result);
 
 // object
 
-let employee: obeject = { id : 0, name : ''};
-employee = {
-    id: 1,
-    name: 'Indu'
-}
+// let employee: object = { id : 0, name : ''};
+// employee = {
+//     id: 1,
+//     name: 'Indu'
+// }
+// console.log(employee);
 
-console.log(employee);
+
+// arithmetic operators
+
+let a = 2;
+let b = 3;
+
+let value = a + b;
+console.log(value);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a ++);
+console.log(a--);
+
+
 
 
 
