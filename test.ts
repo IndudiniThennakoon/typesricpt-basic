@@ -118,7 +118,7 @@ if (value == 4)
     console.log(value);
 }else if (value == 5){
     console.log("value == 5");
-}
+}else
 console.log("Falsy");
 
 
