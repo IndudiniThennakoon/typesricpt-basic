@@ -112,15 +112,28 @@
 // console.log(a < b && c < d);
 
 //  if
-let value = 'STRING VALUE';
-if (value == 4)
-{
-    console.log(value);
-}else if (value == 5){
-    console.log("value == 5");
-}else
-console.log("Falsy");
+// let value = 'STRING VALUE';
+// if (value == 4)
+// {
+//     console.log(value);
+// }else if (value == 5){
+//     console.log("value == 5");
+// }else
+// console.log("Falsy");
 
+let c = 3
+switch(c){
+    case 1: console.log('Value is 1 ');
+    break;
+
+    case 2: console.log('Value is 2 ');
+    break;
+
+    case 3: console.log('Value is 3 ');
+    break;
+
+    default: console.log('invalid');
+}
 
 
 
