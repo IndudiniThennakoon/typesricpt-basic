@@ -31,13 +31,24 @@
 // console.log(x);
 
 //  enum
-enum ActionTypes{
-    GET_PRODUCTS = '[GET PRODUCTS] LOADED',
-    CREATE_PRODUCTS = '[CREATE PRODUCTS] CREATE'
+// enum ActionTypes{
+//     GET_PRODUCTS = '[GET PRODUCTS] LOADED',
+//     CREATE_PRODUCTS = '[CREATE PRODUCTS] CREATE'
+// }
+
+// const action = {
+//     payload = 1,
+//     type: ActionTypes.GET_PRODUCTS
+// }
+// console.log(action);
+
+// unknown variable
+
+let notSure: unknown = 4;
+notSure = 'maybe a string instead';
+
+notSure = false;
+console.log(notSure);
+    
 }
 
-const action = {
-    payload = 1,
-    type: ActionTypes.GET_PRODUCTS
-}
-console.log(action);
