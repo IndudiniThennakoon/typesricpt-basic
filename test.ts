@@ -65,6 +65,16 @@ let result = null;
 result ={ id : 1, name : 'All'};
 console.log(result);
 
+// never
+function error (message: string): never{
+    throw new Error (message);
+}
+
+function fail(){
+    return error("something failed")
+}
+
+
 
 
 
