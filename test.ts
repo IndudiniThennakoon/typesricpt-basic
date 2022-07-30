@@ -121,21 +121,28 @@
 // }else
 // console.log("Falsy");
 
-let c = 3
-switch(c){
-    case 1: console.log('Value is 1 ');
-    break;
+// switch
 
-    case 2: console.log('Value is 2 ');
-    break;
+// let c = 3
+// switch(c){
+//     case 1: console.log('Value is 1 ');
+//     break;
 
-    case 3: console.log('Value is 3 ');
-    break;
+//     case 2: console.log('Value is 2 ');
+//     break;
 
-    default: console.log('invalid');
+//     case 3: console.log('Value is 3 ');
+//     break;
+
+//     default: console.log('invalid');
+// }
+
+//  for loop
+
+let count = 10;
+for(let i = 0 ; i < count ; i++){
+    console.log(i);
 }
-
-
 
 
     
