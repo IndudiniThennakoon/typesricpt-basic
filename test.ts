@@ -97,6 +97,12 @@ console.log(a / b);
 console.log(a ++);
 console.log(a--);
 
+//  relational operators
+
+console.log(a < b);
+console.log(a > b);
+console.log(a <= b);
+console.log(a >= b);
 
 
 
