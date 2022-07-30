@@ -112,7 +112,7 @@
 // console.log(a < b && c < d);
 
 //  if
-let value = 2;
+let value = 'STRING VALUE';
 if (value == 4)
 {
     console.log(value);
